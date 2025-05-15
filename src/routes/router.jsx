@@ -9,7 +9,7 @@ const router = createBrowserRouter([
     element: <HomeLayout></HomeLayout>,
     children: [
       {
-        index: true,
+        path: "",
         element: <Home></Home>,
       },
       {
@@ -18,14 +18,6 @@ const router = createBrowserRouter([
         loader: () => fetch("/news.json"),
       },
     ],
-  },
-  {
-    path: "/auth",
-    element: <h2>Authentication</h2>,
-  },
-  {
-    path: "/news",
-    element: <h1>News page</h1>,
   },
   {
     path: "/*",

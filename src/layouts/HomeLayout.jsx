@@ -10,22 +10,29 @@ const HomeLayout = () => {
   return (
     <div>
       <header>
+        {/* Basic data */}
         <Header></Header>
+        {/* Marquee */}
         <section className="w-11/12 mx-auto my-5">
           <LatestNews></LatestNews>
         </section>
+        {/* Navbar */}
         <nav className="w-11/12 mx-auto mb-5">
           <Navbar></Navbar>
         </nav>
       </header>
 
-      <main className="w-11/12 mx-auto my-3 *:border grid grid-cols-12 ">
+      <main className="w-11/12 mx-auto my-3 grid grid-cols-12 gap-5">
+        {/* apply border to all child -  *:border */}
+        {/* Left section */}
         <aside className="col-span-3">
           <LeftAside></LeftAside>
         </aside>
+        {/* Middle section */}
         <section className="main col-span-6">
           <Outlet></Outlet>
         </section>
+        {/* Right Section */}
         <aside className="col-span-3">
           <RightAside></RightAside>
         </aside>
