@@ -1,6 +1,12 @@
-# 🐉 The Dragon News
+# 🐉 Dragon News
 
 Welcome to **Dragon News**, your go-to platform for the latest updates across all news categories.
+
+---
+
+## 🔗 Live Site
+
+👉 [Visit Dragon News](https://dragon-news-db8d7.web.app/)
 
 ---
 
@@ -15,8 +21,8 @@ You can use the following test credentials:
 - **Email**: `abc@gmail.com`
 - **Password**: `123456`
 
-> 🔒 Note: These credentials are for demonstration purposes only.
+> 🔒 _Note: These credentials are for demonstration purposes only._
 
 ---
 
-Happy reading! 📰
+Enjoy exploring the latest headlines! 📰✨
