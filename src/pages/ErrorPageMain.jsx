@@ -15,7 +15,7 @@ const ErrorPageMain = () => {
       </p>
       <NavLink
         to="/"
-        className="btn bg-[#176AE5] text-white rounded-full my-6 hover:bg-blue-600">
+        className="btn bg-primary text-white rounded-full my-6 hover:bg-blue-600">
         Go Back Home
       </NavLink>
     </div>
