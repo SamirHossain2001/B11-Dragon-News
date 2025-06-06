@@ -16,11 +16,19 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between">
-      <div className="">{user && user.email}</div>
-      <div className="nav flex gap-5 text-accent">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/career">Career</NavLink>
+      <div className="min-w-[150px] text-sm text-gray-600">
+        {user ? user.email : ""}
+      </div>
+      <div className="nav flex gap-2 text-accent">
+        <NavLink className="px-2 py-1 rounded" to="/">
+          Home
+        </NavLink>
+        <NavLink className="px-2 py-1 rounded" to="/about">
+          About
+        </NavLink>
+        <NavLink className="px-2 py-1 rounded" to="/career">
+          Career
+        </NavLink>
       </div>
       <div className="login-btn flex gap-5 items-center">
         <img
